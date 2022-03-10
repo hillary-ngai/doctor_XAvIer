@@ -1,2 +1,4 @@
-# dr_XAvIer
-Entity extraction from physician-patient dialogues for automatic explainable diagnosis and XAI evaluation.
+# Doctor XAvIer: Explainable Diagnosis on Physician-Patient Dialogues and XAI Evaluation
+
+## Abstract
+We introduce Doctor XAvIer \textemdash a BERT-based diagnostic system that extracts relevant clinical data from transcribed patient-doctor dialogues and explains predictions using feature attribution methods. We present a novel performance plot and evaluation metric for feature attribution methods \textemdash Feature Attribution Dropping (FAD) curve and its Normalized Area Under the Curve (N-AUC). FAD curve analysis shows that Integrated Gradients outperforms Shapley values in explaining diagnosis classification. Doctor XAvIer outperforms the previous diagnostic system with 0.97 F1-score in named entity recognition and symptom pertinence classification and 0.91 F1-score in diagnosis classification.

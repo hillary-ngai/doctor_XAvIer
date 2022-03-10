@@ -1,3 +1,16 @@
+# dataset
+public-med-dialogue-data/*
+env/*
+med-dialogue-data/*
+output/*
+
+# batch scripts
+NER_intent_BERT_job.sh
+NER_intent_BERT_job.slrm
+
+# results
+results/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
